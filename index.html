@@ -1,2 +1,30 @@
 <html>
+    <head>
+        <title>My To Do Apps</title>
+    </head>
+    <body>
+        <div>Alfan</div>
+        <button>Press Me</button>
+            <script>
+            let todos =['Sweep the floor','take a bath','feed the pet'];
+            todos.push('new todo');
+            todos.forEach(function(todoTitle) {
+                let element=document.createElement('div');
+                element.innerText=todoTitle;
+                document.body.appendChild(element);
+            });
+
+            
+            // let coba = ['cek mic','cek toa','cekcok'];
+            // coba.push('cekidot');
+            // coba.forEach(function(checking)   {
+            //     let teks=document.createElement('div');
+            //     teks.innerText=checking;
+            //     document.body.appendChild(teks);
+                
+            // })
+
+           
+          </script>        
+    </body>
 </html>
